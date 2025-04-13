@@ -1,8 +1,7 @@
 # Live Currency Converter
 
 A modern, user-friendly web application that allows users to check live foreign currency exchange rates and convert between different currencies in real-time.
-
-![Currency Converter Screenshot](screenshot.png)
+![Currency Converter](./image.png)
 
 ## Features
 
@@ -20,7 +19,7 @@ A modern, user-friendly web application that allows users to check live foreign 
 - JavaScript
 - Font Awesome for icons
 - Flags API for country flags
-![Currency Converter](./image.png)
+
 
 ## Setup and Installation
 
