@@ -1,0 +1,125 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a237e;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #1a237e;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #455a64;
+    margin-bottom: 2rem;
+}
+
+.container{
+    background-color: #ffffff;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    min-width: 45vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button,input{
+    width:100%;
+    border: none;
+    outline:none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid #e0e0e0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    height: 3rem;
+    background-color: #f8f9fa;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    
+}
+
+.select-container img{
+max-width: 2 rem;
+margin-top: 1rem;
+}
+
+.dropdown i{
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: #1a237e;
+}
+
+.select-container{
+    display: flex;
+    width: 7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    color: #455a64;
+    font-weight: 500;
+}
+
+form button{
+    height: 3rem;
+    background-color: #1a237e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #283593;
+}
